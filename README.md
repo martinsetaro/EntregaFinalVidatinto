@@ -5,7 +5,7 @@
 
 ![Vida tinto](https://i.ibb.co/1ZYhTKg/vidatintoreadme.jpg")
 
-> Visita nuestra página [ Vida Tinto](https://martinsetaro.github.io/vidatinto360px/)
+> Visita nuestra página [ Vida Tinto](https://martinsetaro.github.io/EntregaFinalVidatinto/)
 
 
 
