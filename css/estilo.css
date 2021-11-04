@@ -1,0 +1,1762 @@
+.regionNorte, .regionCuyo, .regionSur, .marcador_mapa--chandon, .marcador_mapa--salentein, .infoCafayate__info--price, .infoRafting__info--Price, .infoPatagonia__info--price {
+  border-top: 1px solid dimgrey; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2 {
+  font-family: "Poppins", sans-serif; }
+
+.titleSection {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/bodegas6.jpg");
+  background-size: cover; }
+
+.header {
+  width: 100%;
+  height: 70px;
+  background: #3a3a3a;
+  position: fixed;
+  margin-top: 0;
+  z-index: 33; }
+
+.dropdown {
+  display: none;
+  position: absolute; }
+
+.header a:hover {
+  color: #D3943A; }
+
+.header > a {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  margin-left: 20px; }
+
+.header > a:hover {
+  color: white; }
+
+.header > a::first-letter {
+  color: tomato;
+  font-size: 40px; }
+
+.linkes {
+  display: inline-block;
+  color: white;
+  text-decoration: none; }
+
+.linkes::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width .5s; }
+
+.linkes:hover::after {
+  width: 100%; }
+
+#deslizarFotos h1 {
+  font-size: 50px;
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 0 15px 0 15px;
+  text-align: center; }
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+nav ul li {
+  margin-right: 40px; }
+
+nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px; }
+
+nav ul li ul {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 160px;
+  position: absolute;
+  margin-left: -20px;
+  padding-top: 20px;
+  background: #3a3a3a; }
+
+.header nav ul li ul {
+  display: none; }
+
+.header nav ul li:hover > ul {
+  display: block; }
+
+nav ul li ul li {
+  margin-left: -15px;
+  line-height: 40px; }
+
+.section_four {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.section_four h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 90px;
+  text-align: center; }
+
+.section_four table {
+  width: 90%;
+  margin-left: 80px; }
+
+.mainIndex {
+  width: 100%;
+  height: 4100px;
+  overflow: hidden; }
+
+.w-100 {
+  width: 100% !important;
+  height: 90vh; }
+
+.sectionOne {
+  width: 90%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  margin-top: 70px; }
+  .sectionOne h2 {
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px; }
+  .sectionOne img {
+    width: 100%;
+    height: 250px;
+    transition: .3s ease-in; }
+  .sectionOne p {
+    text-align: start;
+    font-family: "Cabin", sans-serif;
+    margin-top: 10px;
+    color: dimgrey; }
+
+.sectionOne div {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column; }
+
+.sectionOne img:hover {
+  filter: sepia(60%); }
+
+#btnBodegas {
+  width: 220px;
+  height: 50px;
+  background: dimgrey;
+  line-height: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  transition: .4s all ease-in; }
+  #btnBodegas a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    transition: .4s ease-in; }
+
+#btnBodegas:hover {
+  transform: scale(1.1, 1.1);
+  background: white;
+  border: 1px double dimgrey;
+  box-shadow: 2px 2px 6px dimgrey; }
+
+#btnBodegas a:hover {
+  color: dimgrey; }
+
+.sectionTwo {
+  width: 100%;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  margin-top: 150px; }
+
+.sectionTwoSomos {
+  width: 100%;
+  height: 400px;
+  padding: 20px 30px 0 30px; }
+  .sectionTwoSomos h2 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    text-align: center; }
+  .sectionTwoSomos p {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    color: dimgrey; }
+
+.quienesSomos {
+  width: 90%;
+  height: 400px;
+  background-image: url("../img/somos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px; }
+
+.tituloInformacion {
+  max-width: 1000px;
+  height: 60px;
+  margin: 20px auto;
+  padding-top: 130px;
+  border-bottom: 2px solid dimgrey;
+  padding-bottom: 40px; }
+  .tituloInformacion h2 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    color: dimgrey;
+    line-height: 10px;
+    text-align: center; }
+
+.sectionTree {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  margin-top: 40px; }
+  .sectionTree img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 6px dimgrey;
+    border-radius: 50%;
+    transition: .5s ease; }
+  .sectionTree p {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    margin-top: 50px; }
+
+.sectionTree div {
+  width: 300px; }
+
+.sectionTree img:hover {
+  border-radius: 0;
+  box-shadow: 2px 2px 6px dimgrey;
+  transform: scale(1.2, 1.2); }
+
+.vinoMalbec {
+  padding: 10px 10px;
+  width: 30%; }
+
+.btnTop button {
+  width: 140px;
+  margin-left: 600px;
+  margin-top: 120px; }
+
+.btnTop a {
+  text-decoration: none;
+  color: dimgrey;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px; }
+
+.btnTop button:hover {
+  border: 2px double dimgrey;
+  background: dimgrey;
+  box-shadow: 2px 2px 6px, 2px 2px 6px, 2px 2px 6px dimgrey; }
+
+.btnTop a:hover {
+  color: ivory; }
+
+.titleInSection {
+  background: #3a3a3a;
+  width: 300px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 160px;
+  padding: 0;
+  margin-left: 40px;
+  align-items: center; }
+
+.titleInSection h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  line-height: 50px; }
+
+.titleInSection img {
+  width: 100%; }
+
+/*------**************************************************************************************
+*********************** FOOTER ************************************ */
+footer {
+  height: 200px;
+  width: 100%;
+  background: #3a3a3a;
+  border-top: 3px solid tomato;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 690px; }
+
+.footerIndex {
+  margin-top: -200px; }
+
+.footerGastronomia {
+  margin-top: -200px; }
+
+.redesSociales {
+  width: 400px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  line-height: 60px; }
+
+.redesSociales a {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey; }
+
+.redesSociales a:hover {
+  color: tomato; }
+
+.mediosComunicacion {
+  width: 450px;
+  height: 180px;
+  text-align: right; }
+
+.mediosComunicacion h3 {
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: dimgrey;
+  font-size: 20px;
+  line-height: 40px; }
+
+ion-icon {
+  margin-right: 10px; }
+
+.mediosComunicacion a {
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  margin-left: 10px;
+  color: white; }
+
+.mediosComunicacion h3:hover {
+  color: tomato; }
+
+footer img {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  margin-top: 40px; }
+
+/*-------------------------------------------------------------
+------------- BUSCADORES ------------------------------ */
+.buscadores h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 120px; }
+
+.buscadores {
+  width: 90%;
+  margin: 20px auto; }
+
+/*--****************************************************************
+************ GASTRONOMIA ********************************* */
+.gastronomiaTitulo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/gastronomia3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.gastronomiaTitulo h2 {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 650px; }
+
+.titleGastronomia h2 {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center; }
+
+.mainGastronomia {
+  width: 100%;
+  background: white;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 700px 80px 600px 600px 600px;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  height: 3000px;
+  overflow: hidden; }
+
+.gastronomiaTitulo {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2; }
+
+.titleInitGastronomia {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
+  .titleInitGastronomia h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: dimgrey;
+    margin-top: 40px;
+    text-align: center; }
+
+.regionNorte {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.inframe {
+  margin-top: 40px;
+  align-items: center; }
+
+.regionNorte h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionNorte h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionNorte h3 {
+  font-size: 20px; }
+
+.regionNorte ol {
+  list-style: circle; }
+
+.regionNorte li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 35px; }
+
+.regionCuyo {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.regionCuyo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionCuyo h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionCuyo ol {
+  list-style: circle; }
+
+.regionCuyo h3 {
+  font-size: 20px; }
+
+.regionCuyo li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 35px; }
+
+.regionSur {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  display: flex;
+  margin-top: 180px;
+  justify-content: space-around;
+  padding-top: 30px; }
+
+.regionSur h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: dimgrey; }
+
+.regionSur h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cb933c; }
+
+.regionSur h3 {
+  font-size: 20px; }
+
+.regionSur ol {
+  list-style: circle; }
+
+.regionSur li {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  line-height: 45px; }
+
+main {
+  width: 100%;
+  height: 3903px; }
+
+/*--*************************************************************************
+************** BODEGAS ****************************************----*/
+.main__bodegas {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 700px 700px 780px 780px 780px 60px;
+  row-gap: 170px; }
+
+.rutas_bodegas {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; }
+
+.rutas_bodegas img {
+  width: 100%;
+  height: 500px; }
+
+.rutas_bodegas__informacion img {
+  width: 60%;
+  height: 500px;
+  margin-left: 240px; }
+
+.rutas_bodegas h1 {
+  font-size: 50px;
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: -50px; }
+
+.rutas_bodegas--titulo {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: underline; }
+
+.title_bodegas {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background-image: url("../img/bodegas5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.ruteras {
+  grid-column: 1 / -1;
+  grid-row: 2/3; }
+
+.title_bodegas__titulo--principal {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 850px; }
+
+.bodegasInfografia {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center; }
+
+.info_tres_bodegas {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4; }
+
+.info_tres_bodegas div {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.bodega_vine {
+  width: 80%;
+  margin-left: 100px; }
+
+.bodega_vine__boton--link {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodega_vine a:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodega_vine img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodega_vine img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodega_vine__parrafo {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodega_vine__first--title {
+  color: dimgrey;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.bodega_sene {
+  width: 80%;
+  margin-left: 100px; }
+
+.bodega_sene__boton--link {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodega_sene__boton--link:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodega_sene img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodega_sene img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodega_sene__parrafo {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodega_sene__first--title {
+  color: dimgrey;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.bodegaToneles {
+  width: 80%;
+  margin-left: 100px; }
+
+.bodegaToneles a {
+  background: #D3943A;
+  color: white;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid dimgrey;
+  padding: 5px; }
+
+.bodegaToneles a:hover {
+  background: white;
+  color: #D3943A;
+  border: 1px solid #D3943A; }
+
+.bodegaToneles img {
+  width: 100%;
+  height: 400px;
+  transition: .9s ease-in;
+  opacity: .8; }
+
+.bodegaToneles img:hover {
+  transform: scale(1.3, 1.3);
+  opacity: 1;
+  box-shadow: 2px -5px 108px 200px rgba(0, 0, 0, 0.52); }
+
+.bodegaToneles p {
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  margin-top: 20px;
+  line-height: 30px; }
+
+.bodegaToneles h2 {
+  color: dimgrey;
+  font-size: 35px;
+  margin-bottom: 20px; }
+
+.marcador_mapa--chandon {
+  width: 25px;
+  height: 25px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: -145px;
+  z-index: 22;
+  cursor: pointer; }
+
+.sub_chandon {
+  width: 250px;
+  height: 480px;
+  position: absolute;
+  background: white;
+  display: flex;
+  box-shadow: 2px 2px 6px dimgrey;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+  margin-left: 200px;
+  display: none; }
+
+.sub_chandon__titulo--modal {
+  margin-top: 10px;
+  color: dimgrey;
+  text-decoration: center;
+  font-size: 32px;
+  text-align: center; }
+
+.sub_chandon__parrafo {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center; }
+
+.sub_chandon img {
+  width: 100%;
+  height: 140px; }
+
+.marcador_mapa--chandon:hover > div {
+  display: block; }
+
+.marcador_mapa--salentein {
+  width: 25px;
+  height: 25px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -320px;
+  z-index: 22;
+  cursor: pointer; }
+
+.sub_salentein {
+  width: 250px;
+  height: 480px;
+  position: absolute;
+  background: white;
+  display: flex;
+  box-shadow: 2px 2px 6px dimgrey;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -180px;
+  margin-left: -280px;
+  display: none; }
+
+.sub_salentein__titulo--modal {
+  margin-top: 10px;
+  color: dimgrey;
+  text-decoration: center;
+  font-size: 32px;
+  text-align: center; }
+
+.sub_salentein__parrafo {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center; }
+
+.sub_salentein img {
+  width: 95%;
+  height: 140px; }
+
+.marcador_mapa--salentein:hover > div {
+  display: block; }
+
+/*-------****************************************************************
+***************** CONTACTO *******************************--- */
+.mainContacto {
+  width: 100%;
+  height: 2300px; }
+
+.sectionContacto {
+  background: white;
+  width: 70%;
+  height: 890px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: dimgrey;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.sectionContacto h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px; }
+
+.sectionContacto label {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px; }
+
+.sectionContacto input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d0921f;
+  margin-bottom: 15px;
+  width: 500px; }
+
+.sectionContactoTitle img {
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.sectionContactoTitle h1 {
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-top: 60px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px; }
+
+.box {
+  margin-left: -50px;
+  margin-right: -240px;
+  margin-top: 40px; }
+
+.contactoTitulo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/contacto1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contactoTitulo h2 {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 800px; }
+
+.reset {
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  margin-top: 80px;
+  margin-left: -420px;
+  background: #d0921f;
+  box-shadow: 2px 2px 6px dimgrey; }
+
+.enviar {
+  width: 260px;
+  height: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  background: #d0921f;
+  box-shadow: 2px 2px 6px dimgrey;
+  position: absolute;
+  margin-left: -420px;
+  margin-top: 130px; }
+
+.formContacto {
+  width: 80%;
+  height: 890px;
+  display: flex;
+  margin: 20px auto;
+  margin-top: 90px;
+  box-shadow: 2px 2px 6px dimgrey; }
+
+.contactoInfo {
+  width: 60%;
+  background: #1B7EC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.contactoInfo h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  margin-top: -120px; }
+
+.icono {
+  color: white;
+  font-size: 50px; }
+
+.mainTurismo {
+  width: 100%;
+  height: 5200px;
+  overflow: hidden; }
+
+.turismo {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/turismo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.turismo__titulo {
+  font-size: 90px;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 850px; }
+
+.cafayate {
+  width: 70%;
+  height: 650px;
+  padding-left: 30px;
+  margin-left: 60px;
+  display: flex;
+  padding-top: 20px;
+  box-shadow: 2px 2px 6px dimgrey;
+  background: white; }
+
+.cafayate__imagen {
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/cafayate.jpg");
+  background-size: cover; }
+
+.infoCafayate {
+  width: 80%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.infoCafayate__titulo {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center; }
+
+.infoCafayate__subTitulo {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+.infoCafayate__informacion {
+  font-family: "Quicksand", sans-serif;
+  text-align: justify; }
+
+.infoCafayate__info--price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+.aventura__titulo--principal {
+  font-size: 50px;
+  margin-top: 120px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  margin-bottom: 140px;
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px double dimgrey; }
+
+.rafting {
+  width: 70%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+  padding-top: 20px;
+  display: flex;
+  margin-left: 350px;
+  box-shadow: 2px 2px 6px dimgrey;
+  background: white; }
+
+.rafting__imagen {
+  width: 40%;
+  height: 500px;
+  background-image: url("../img/rafting.jpg");
+  background-size: cover; }
+
+.infoRafting {
+  width: 80%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.infoRafting__titulo {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center; }
+
+.infoRafting__subTitulo {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+.infoRafting__informacion {
+  font-family: "Quicksand", sans-serif;
+  text-align: justify; }
+
+.infoRafting__info--Price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+.patagonia {
+  width: 80%;
+  height: 580px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+  display: flex;
+  background: white;
+  box-shadow: 2px 2px 6px dimgrey;
+  padding-top: 20px;
+  margin-left: 20px; }
+
+.patagonia__imagen {
+  width: 50%;
+  height: 530px;
+  background-image: url("../img/bariloche.jpg");
+  background-size: cover; }
+
+.infoPatagonia {
+  width: 80%;
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.infoPatagonia__titulo {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: dimgrey;
+  text-align: center; }
+
+.infoPatagonia__subTitulo {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+.infoPatagonia__informacion--parrafo {
+  font-family: "Quicksand", sans-serif;
+  text-align: justify; }
+
+.infoPatagonia__info--price {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  background: #D3943A;
+  padding: 5px 5px 5px 5px;
+  margin-top: 45px;
+  font-size: 30px; }
+
+@media only screen and (max-width: 360px) and (min-width: 300px) {
+  .mainIndex {
+    height: 6000px; }
+  .main__bodegas {
+    width: 100%;
+    height: 3800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 100px 30px 1200px; }
+  .title_bodegas {
+    grid-column: 1/-1;
+    grid-row: 1/2; }
+  .ruteras {
+    grid-column: 1 / 4;
+    grid-row: 2/3; }
+  .rutas_bodegas__informacion h1 {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -10px;
+    margin-top: 20px; }
+  .rutas_bodegas__informacion h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -20px; }
+  .rutas_bodegas__informacion > img {
+    width: 80%;
+    height: 200px;
+    margin-left: 10px; }
+  .info_tres_bodegas {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: -110px; }
+  .info_tres_bodegas div {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .bodega_vine img {
+    width: 100%;
+    height: 250px;
+    transition: none; }
+  .bodega_vine p {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 28px; }
+  .bodega_vine img:hover {
+    transform: none;
+    box-shadow: none; }
+  .bodega_sene img {
+    width: 100%;
+    height: 250px;
+    transition: none; }
+  .bodega_sene p {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 28px; }
+  .bodega_sene img:hover {
+    transform: none;
+    box-shadow: none; }
+  .bodegaToneles img {
+    width: 100%;
+    height: 250px;
+    transition: none; }
+  .bodegaToneles p {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 28px; }
+  .bodegaToneles img:hover {
+    transform: none;
+    box-shadow: none; }
+  .marcador_mapa--chandon,
+  .marcador_mapa--salentein {
+    display: none; }
+  .title_bodegas__titulo--principal {
+    margin-left: 70px;
+    margin-top: 320px;
+    font-size: 45px; }
+  .footerIndex {
+    margin-top: -150px;
+    width: 100%;
+    height: 320px; }
+  .footerIndex div a {
+    font-size: 15px;
+    line-height: 30px; }
+  .footerIndex div h3 {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-family: "Poppins", sans-serif; }
+  .footerIndex img {
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 110px; }
+  /*-------------------------
+    --------------*/
+  .footerBodegas {
+    margin-top: 50px;
+    width: 100%;
+    height: 340px; }
+  .footerBodegas div a {
+    font-size: 15px;
+    line-height: 30px; }
+  .footerBodegas div h3 {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-family: "Poppins", sans-serif; }
+  .footerBodegas img {
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 110px; }
+  .mediosComunicacion {
+    width: 200px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px; }
+  .redesSociales {
+    display: none; }
+  .w-100 {
+    width: 100% !important;
+    height: 30vh; }
+  #deslizarFotos h1 {
+    font-size: 30px; }
+  .titleSection {
+    height: 400px; }
+  .titleInSection {
+    width: 40%;
+    height: 180px;
+    margin-top: 220px;
+    margin-left: 5px; }
+  .titleInSection h2 {
+    display: none; }
+  nav {
+    display: none; }
+  .header a {
+    font-size: 18px; }
+  .buttonNav {
+    display: block;
+    margin-left: 290px;
+    margin-top: 25px; }
+  #btnBodegas {
+    margin-left: 10px;
+    margin-bottom: 20px; }
+  .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 770px; }
+  .sectionTwo h2 {
+    font-size: 40px; }
+  .sectionTwo p {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif; }
+  .tituloInformacion {
+    margin-top: 90px; }
+  .tituloInformacion h2 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; }
+  .sectionTree {
+    display: flex;
+    flex-direction: column;
+    margin-top: 750px; }
+  .sectionTree img {
+    border-radius: 0; }
+  .sectionTree div {
+    height: 800px;
+    width: 90%;
+    align-content: center;
+    margin-top: 70px; }
+  .sectionTree p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; }
+  #treeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 700px; }
+  #treeContainer > div {
+    margin-top: 230px;
+    border-top: 1px solid dimgrey;
+    margin-bottom: 40px; }
+  .btnTop button {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 110px;
+    background: navy; }
+  .sectionOne {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 670px;
+    margin-left: -30px; }
+  .sectionOne_div {
+    align-items: center;
+    height: 650px;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 20px; }
+    .sectionOne_div img {
+      width: 90%; }
+  .sectionOne_div p {
+    font-size: 16px;
+    text-align: center; }
+  /*-------------------
+**** contacto ***** */
+  .contactoTitulo {
+    height: 400px; }
+    .contactoTitulo h2 {
+      margin-left: 90px;
+      margin-top: 340px;
+      font-size: 40px; }
+  .sectionContactoTitle h1 {
+    font-size: 20px; }
+  .formContacto {
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none; }
+  .contactoInfo {
+    width: 100%;
+    height: 350px;
+    padding-top: 60px; }
+    .contactoInfo h3 {
+      font-size: 18px; }
+  .contactoInfo .icono {
+    display: none; }
+  .sectionContacto {
+    width: 100%;
+    height: 1250px; }
+    .sectionContacto h2 {
+      font-size: 20px; }
+  .formularioContacto label {
+    font-size: 18px; }
+  .formularioContacto textarea {
+    width: 100%;
+    height: 200px; }
+  .formularioContacto .reset {
+    width: 160px;
+    margin-left: -180px; }
+  .formularioContacto .enviar {
+    width: 160px;
+    margin-left: -180px; }
+  .formularioContacto .box {
+    width: 90%;
+    position: absolute;
+    margin-left: 20px; }
+  .formularioContacto input {
+    width: 100%; }
+  /*-------------------------------------
+****** TURISMO ******* -*/
+  .mainTurismo {
+    width: 100%;
+    height: 4500px; }
+  .turismo {
+    width: 100%;
+    height: 400px; }
+  .turismo__titulo {
+    margin-left: 60px;
+    margin-top: 320px;
+    font-size: 50px; }
+  .tituloTabla .tituloTabla__titulo {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .section_four table {
+    width: 95%;
+    font-size: 10px;
+    margin-left: 10px; }
+  .aventura__titulo--principal {
+    font-size: 20px; }
+  .cafayate {
+    width: 100%;
+    height: 650px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; }
+  .infoCafayate {
+    width: 100%;
+    height: 650px; }
+  .infoCafayate__titulo {
+    font-size: 20px;
+    margin-top: 10px; }
+  .infoCafayate__subTitulo {
+    font-size: 18px; }
+  .infoCafayate__informacion {
+    text-align: start;
+    font-size: 12px; }
+  .infoCafayate__info--price {
+    font-size: 16px; }
+  .cafayate__imagen {
+    width: 100%;
+    height: 150px;
+    margin-left: -5px; }
+  /***************------------------------------
+***************------------*/
+  .rafting {
+    width: 100%;
+    height: 700px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; }
+  .infoRafting {
+    width: 100%;
+    height: 700px; }
+  .infoRafting__titulo {
+    font-size: 20px;
+    margin-top: 10px; }
+  .infoRafting__subTitulo {
+    font-size: 18px; }
+  .infoRafting__informacion {
+    text-align: start;
+    font-size: 12px; }
+  .infoRafting__info--Price {
+    font-size: 16px; }
+  .rafting__imagen {
+    width: 340px;
+    height: 200px;
+    margin-left: -5px;
+    margin-bottom: 40px; }
+  /*************----------------------------
+******************-----------------*/
+  .patagonia {
+    width: 100%;
+    height: 700px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; }
+  .infoPatagonia {
+    width: 100%;
+    height: 700px; }
+  .infoPatagonia__titulo {
+    font-size: 20px; }
+  .infoPatagonia__subTitulo {
+    font-size: 18px; }
+  .infoPatagonia__informacion--parrafo {
+    text-align: start;
+    font-size: 12px; }
+  .infoPatagonia__info--price {
+    font-size: 16px; }
+  .patagonia__imagen {
+    width: 340px;
+    height: 200px;
+    margin-left: -5px;
+    margin-bottom: 40px; }
+  .buscadores h2 {
+    font-size: 20px; }
+  .container {
+    width: 100%;
+    height: 550px; }
+  /***************************************************************
+****************** GASTRONOMIA ************ */
+  .mainGastronomia {
+    width: 360px;
+    height: 2950px; }
+  .gastronomiaTitulo {
+    width: 100%;
+    height: 400px; }
+    .gastronomiaTitulo h2 {
+      font-size: 35px;
+      margin-left: 50px;
+      margin-top: 340px; }
+  .titleInitGastronomia h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -280px;
+    margin-left: -45px; }
+  .regionNorte {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin-top: -100px;
+    margin-left: -45px; }
+    .regionNorte h1 {
+      text-align: center; }
+  .regionNorte h2 {
+    font-size: 18px;
+    text-align: center; }
+  .regionNorte iframe {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px; }
+  .regionCuyo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin-top: 50px;
+    margin-left: -45px; }
+    .regionCuyo h1 {
+      text-align: center; }
+  .regionCuyo h2 {
+    font-size: 18px;
+    text-align: center; }
+  .regionCuyo iframe {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px; }
+  .regionSur {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin-top: 130px;
+    margin-left: -45px; }
+    .regionSur h1 {
+      text-align: center; }
+  .regionSur h2 {
+    font-size: 18px;
+    text-align: center; }
+  .regionSur iframe {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px; }
+  .footerGastronomia {
+    margin-top: -100px;
+    width: 100%;
+    height: 340px; }
+  .footerGastronomia div a {
+    font-size: 15px;
+    line-height: 30px; }
+  .footerGastronomia div h3 {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-family: "Poppins", sans-serif; }
+  .footerGastronomia img {
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 110px; }
+  .dropdown {
+    display: block;
+    margin-left: 250px;
+    margin-top: 15px; }
+  .dropdown button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px; }
+  .dropdown-menu li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: ivory; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  .header {
+    position: fixed; }
+  .linkes {
+    font-size: 14px; }
+  .header nav ul li {
+    margin-left: -10px; }
+  .header .letter_logo {
+    font-size: 18px;
+    margin-top: -5px; }
+  .titleInSection {
+    width: 30%; }
+    .titleInSection h2 {
+      font-size: 18px; }
+  .w-100 {
+    width: 100% !important;
+    height: 40vh; }
+  .sectionOne {
+    width: 100%; }
+  .sectionOne_div h2 {
+    font-size: 20px; }
+  .sectionOne .sectionOne_div {
+    width: 200px; }
+    .sectionOne .sectionOne_div img {
+      height: 150px; }
+    .sectionOne .sectionOne_div p {
+      font-size: 18px;
+      text-align: center; }
+  #btnBodegas {
+    width: 130px;
+    margin-left: 40px; }
+    #btnBodegas a {
+      font-size: 10px; }
+  .tituloInformacion {
+    margin-top: 90px; }
+  .sectionTree {
+    width: 100%; }
+  .sectionTree div {
+    width: 180px; }
+  .btnTop {
+    margin-left: -290px;
+    margin-top: 120px; }
+  .mediosComunicacion h3 {
+    font-size: 15px;
+    line-height: 25px; }
+  .redesSociales a {
+    font-size: 15px; }
+  .title_bodegas {
+    height: 400px; }
+    .title_bodegas h2 {
+      font-size: 50px;
+      margin-left: 450px;
+      margin-top: 320px; }
+  .rutas_bodegas {
+    width: 100%; }
+  .rutas_bodegas__informacion h1 {
+    font-size: 30px; }
+  .rutas_bodegas__informacion {
+    margin-top: -370px; }
+    .rutas_bodegas__informacion img {
+      width: 90%;
+      margin-left: 40px; }
+  .marcador_mapa--chandon,
+  .marcador_mapa--salentein {
+    display: none; }
+  .info_tres_bodegas {
+    width: 100%;
+    margin-top: -300px; }
+  .bodega_vine,
+  .bodega_sene,
+  .bodegaToneles {
+    width: 100%;
+    margin-left: 20px; }
+    .bodega_vine img,
+    .bodega_sene img,
+    .bodegaToneles img {
+      width: 90%;
+      height: 300px; }
+  .bodega_vine__parrafo,
+  .bodega_sene__parrafo {
+    font-size: 15px; }
+  .bodegaToneles p {
+    font-size: 15px; }
+  .main__bodegas {
+    height: 3000px; }
+  .mainGastronomia {
+    height: 3800px; }
+  .mainTurismo {
+    height: 4200px; }
+  .mainContacto {
+    height: 2200px; }
+  .gastronomiaTitulo {
+    height: 400px; }
+    .gastronomiaTitulo h2 {
+      margin-left: 350px;
+      margin-top: 330px;
+      font-size: 50px; }
+  .titleInitGastronomia {
+    width: 100%;
+    margin-top: -200px; }
+  .regionNorte,
+  .regionSur,
+  .regionCuyo {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .regionNorte ol li {
+    font-size: 15px; }
+  .regionCuyo {
+    margin-top: 300px; }
+  .regionSur {
+    margin-top: 550px; }
+  .turismo {
+    height: 400px; }
+    .turismo h2 {
+      margin-left: 500px;
+      margin-top: 330px;
+      font-size: 50px; }
+  .tituloTabla .tituloTabla__titulo {
+    font-size: 30px; }
+  .section_four table {
+    width: 95%;
+    font-size: 10px;
+    margin-left: 20px; }
+  .aventura .aventura__titulo--principal {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .patagonia,
+  .rafting,
+  .cafayate {
+    width: 90%;
+    box-shadow: 2px 2px 6px dimgrey;
+    margin-left: 30px; }
+  .infoCafayate__titulo,
+  .infoRafting__titulo,
+  .infoPatagonia__titulo {
+    font-size: 20px; }
+  .infoCafayate__informacion,
+  .infoRafting__informacion,
+  .infoPatagonia__informacion--parrafo {
+    font-size: 15px; }
+  .infoCafayate__info--price,
+  .infoRafting__info--Price,
+  .infoPatagonia__info--price {
+    font-size: 18px; }
+  .buscadores h2 {
+    font-size: 20px; }
+  .contactoTitulo {
+    height: 400px; }
+    .contactoTitulo h2 {
+      margin-left: 500px;
+      margin-top: 330px;
+      font-size: 40px; }
+  .sectionContactoTitle h1 {
+    font-size: 20px; }
+  .formContacto {
+    width: 95%;
+    height: 1080px; }
+  .formularioContacto input {
+    width: 400px; }
+  .formularioContacto textarea {
+    width: 370px; }
+  .sectionContacto .box {
+    display: block;
+    margin-left: -150px; }
+  .titulo_box {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 80px;
+    font-size: 18px; }
+  .formularioContacto .reset {
+    margin-left: 60px;
+    width: 40%; }
+  .formularioContacto .enviar {
+    margin-left: 60px;
+    width: 40%; } }
